@@ -45,7 +45,7 @@ export default function CampaignsHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto leading-relaxed text-white/90"
           >
             Discover active environmental initiatives around the world and join the movement for positive change in your
             community.

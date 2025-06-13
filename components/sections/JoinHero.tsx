@@ -1,6 +1,6 @@
 "use client"
 
-import { motion } from "framer-motion"
+import { color, motion } from "framer-motion"
 import { Users, Heart, Zap, Globe } from 'lucide-react'
 
 export default function JoinHero() {
@@ -90,7 +90,7 @@ export default function JoinHero() {
             Be part of a global community working together to create lasting environmental change. Whether you want to volunteer, donate, or become a member, there's a place for you in our movement.
           </motion.p>
 
-          {/* Stats
+          {/* Stats */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -98,12 +98,12 @@ export default function JoinHero() {
             className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto"
           >
             {[
-              { number: "50K+", label: "Active Members" },
+              { number: "50K+", label: "Active Members",},
               { number: "150+", label: "Campaigns" },
               { number: "25+", label: "Countries" },
               { number: "1M+", label: "Trees Planted" }
             ].map((stat, index) => (
-              <div key={stat.label} className="text-center">
+              <div key={stat.label} className="text-center text-white">
                 <motion.div
                   initial={{ opacity: 0, scale: 0 }}
                   animate={{ opacity: 1, scale: 1 }}
@@ -115,7 +115,7 @@ export default function JoinHero() {
                 <div className="text-gray-300 text-sm">{stat.label}</div>
               </div>
             ))}
-          </motion.div> */}
+          </motion.div> 
         </motion.div>
       </div>
     </section>
