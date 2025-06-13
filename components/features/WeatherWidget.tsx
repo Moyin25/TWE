@@ -46,7 +46,7 @@ export default function WeatherWidget() {
 
   if (isLoading) {
     return (
-      <Card className="w-48 bg-white/10 backdrop-blur-md border-white/20">
+      <Card className="w-48 bg-white/10 backdrop-blur-md border-white/20 text-white animate-pulse ">
         <CardContent className="p-4">
           <div className="animate-pulse space-y-2">
             <div className="h-4 bg-white/20 rounded w-3/4"></div>
@@ -59,20 +59,29 @@ export default function WeatherWidget() {
   }
 
   return (
-    <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }}>
-      <Card className="w-48 bg-white/10 backdrop-blur-md border-white/20 text-white">
-        <CardContent className="p-4">
+    <motion.div
+      initial={{ opacity: 0, scale: 0.9 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.5 }}
+      className="w-full max-w-[12rem] sm:max-w-[16rem]"
+    >
+      <Card className="w-full bg-white/10 backdrop-blur-md border border-white/10 text-white rounded-lg">
+        <CardContent className="p-3 sm:p-4">
           <div className="flex items-center justify-between mb-2">
-            <span className="text-sm font-medium">{weather.location}</span>
+            <span className="text-xs sm:text-sm font-medium">
+              {weather.location}
+            </span>
             {getWeatherIcon(weather.condition)}
           </div>
 
           <div className="flex items-center mb-2">
             <Thermometer className="h-4 w-4 mr-2 text-green-light" />
-            <span className="text-2xl font-bold">{weather.temperature}°C</span>
+            <span className="text-xl sm:text-2xl font-bold">
+              {weather.temperature}°C
+            </span>
           </div>
 
-          <div className="text-xs text-gray-200">
+          <div className="text-[0.65rem] sm:text-xs text-gray-200">
             <div className="flex justify-between">
               <span>Humidity</span>
               <span>{weather.humidity}%</span>
@@ -85,5 +94,5 @@ export default function WeatherWidget() {
         </CardContent>
       </Card>
     </motion.div>
-  )
+  );
 }
