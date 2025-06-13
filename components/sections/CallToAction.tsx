@@ -14,7 +14,7 @@ const actions = [
   },
   {
     icon: <Heart className="h-8 w-8" />,
-    title: "Donate",
+    title: "Sponsor",
     description: "Support our mission with a contribution",
   },
   {

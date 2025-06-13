@@ -31,15 +31,15 @@ const joinOptions = [
   {
     id: "donor",
     icon: <Heart className="h-12 w-12" />,
-    title: "Donor",
+    title: "Sponsor",
     subtitle: "Support Our Mission",
     description: "Provide financial support to fund our campaigns and expand our environmental impact worldwide.",
-    price: "From $10/month",
-    popular: true,
+
+    // popular: true,
     color: "from-green-400 to-green-600",
     benefits: [
       "Monthly impact reports",
-      "Donor-exclusive updates",
+      "Sponsor-exclusive updates",
       "Tax-deductible receipts",
       "Recognition in annual report",
       "Access to donor events",
@@ -48,27 +48,27 @@ const joinOptions = [
     ],
     commitment: "Monthly or one-time donations"
   },
-  {
-    id: "member",
-    icon: <Crown className="h-12 w-12" />,
-    title: "Member",
-    subtitle: "Full Community Access",
-    description: "Become a full member with voting rights, exclusive access, and leadership opportunities in our organization.",
-    price: "$25/month",
-    popular: false,
-    color: "from-purple-400 to-purple-600",
-    benefits: [
-      "All volunteer benefits",
-      "All donor benefits",
-      "Voting rights in decisions",
-      "Leadership opportunities",
-      "Exclusive member events",
-      "Advanced training programs",
-      "Mentorship opportunities",
-      "Annual member retreat"
-    ],
-    commitment: "Annual membership with renewal"
-  }
+  // {
+  //   id: "member",
+  //   icon: <Crown className="h-12 w-12" />,
+  //   title: "Member",
+  //   subtitle: "Full Community Access",
+  //   description: "Become a full member with voting rights, exclusive access, and leadership opportunities in our organization.",
+  
+  //   popular: false,
+  //   color: "from-purple-400 to-purple-600",
+  //   benefits: [
+  //     "All volunteer benefits",
+  //     "All donor benefits",
+  //     "Voting rights in decisions",
+  //     "Leadership opportunities",
+  //     "Exclusive member events",
+  //     "Advanced training programs",
+  //     "Mentorship opportunities",
+  //     "Annual member retreat"
+  //   ],
+  //   commitment: "Annual membership with renewal"
+  // }
 ]
 
 export default function JoinOptions() {
@@ -93,7 +93,7 @@ export default function JoinOptions() {
           </p>
         </motion.div>
 
-        <div className="grid lg:grid-cols-3 gap-8 mb-12">
+        <div className="grid lg:grid-cols-2 gap-12 mb-16">
           {joinOptions.map((option, index) => (
             <motion.div
               key={option.id}

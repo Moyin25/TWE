@@ -85,12 +85,12 @@ export default function JoinHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-white max-w-4xl mx-auto leading-relaxed"
           >
             Be part of a global community working together to create lasting environmental change. Whether you want to volunteer, donate, or become a member, there's a place for you in our movement.
           </motion.p>
 
-          {/* Stats */}
+          {/* Stats
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -115,7 +115,7 @@ export default function JoinHero() {
                 <div className="text-gray-300 text-sm">{stat.label}</div>
               </div>
             ))}
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </div>
     </section>
