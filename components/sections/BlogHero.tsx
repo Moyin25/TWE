@@ -61,7 +61,7 @@ export default function BlogHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-5xl md:text-7xl font-hartone font-bold text-white leading-tight"
+            className="text-5xl md:text-8xl font-hartone font-bold text-white leading-tight"
           >
             Environmental{" "}
             <span className="bg-gradient-to-r from-green-light to-green-dark bg-clip-text text-transparent">
