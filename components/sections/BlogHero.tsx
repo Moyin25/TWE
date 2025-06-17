@@ -73,7 +73,7 @@ export default function BlogHero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-white max-w-4xl mx-auto leading-relaxed"
           >
             Stay informed with the latest research, stories, and actionable insights on climate change, sustainability, and environmental action.
           </motion.p>
