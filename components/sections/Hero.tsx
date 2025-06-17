@@ -56,7 +56,7 @@ export default function Hero() {
       </div>
 
       {/* Weather Widget */}
-      <div className="absolute top-4 right-2 sm:top-24 sm:right-4 lg:right-8 z-20 max-w-[90vw] sm:max-w-none">
+      <div className="hidden sm:block absolute top-24 right-4 lg:right-8 z-20">
         <WeatherWidget />
       </div>
 

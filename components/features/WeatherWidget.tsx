@@ -63,10 +63,10 @@ export default function WeatherWidget() {
       initial={{ opacity: 0, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
-      className="w-full max-w-[12rem] sm:max-w-[16rem]"
+      className="w-full max-w-[15rem] sm:max-w-[16rem]"
     >
-      <Card className="w-full bg-white/10 backdrop-blur-md border border-white/10 text-white rounded-lg">
-        <CardContent className="p-3 sm:p-4">
+      <Card className="w-full   border border-white/10 text-white rounded-lg">
+        <CardContent className="p-5 sm:p-4">
           <div className="flex items-center justify-between mb-2">
             <span className="text-xs sm:text-sm font-medium">
               {weather.location}
