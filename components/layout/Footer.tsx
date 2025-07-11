@@ -39,12 +39,15 @@ export default function Footer() {
               transition={{ duration: 0.6 }}
               viewport={{ once: true }}
             >
-              <Link href="/" className="text-3xl font-hartone font-bold text-green-light mb-4 block">
+              <Link
+                href="/"
+                className="text-3xl font-hartone font-bold text-green-light mb-4 block"
+              >
                 The Weather & Everything
               </Link>
               <p className="text-gray-300 mb-6 max-w-md leading-relaxed">
-                Empowering communities to take action against climate change through education, advocacy, and
-                sustainable solutions for a better tomorrow.
+                Empowering Communities to act on Climate change through
+                education, advocacy and solutions for an assured future.
               </p>
 
               {/* Contact Info */}
@@ -72,7 +75,9 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.1 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-lg font-semibold text-green-light mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold text-green-light mb-4">
+              Quick Links
+            </h3>
             <ul className="space-y-3">
               {navigation.main.map((item) => (
                 <li key={item.name}>
@@ -94,7 +99,9 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-lg font-semibold text-green-light mb-4">Support</h3>
+            <h3 className="text-lg font-semibold text-green-light mb-4">
+              Support
+            </h3>
             <ul className="space-y-3">
               {navigation.support.map((item) => (
                 <li key={item.name}>
@@ -121,7 +128,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex space-x-6 mb-4 md:mb-0">
               {navigation.social.map((item) => {
-                const Icon = item.icon
+                const Icon = item.icon;
                 return (
                   <Link
                     key={item.name}
@@ -131,19 +138,22 @@ export default function Footer() {
                   >
                     <Icon className="h-6 w-6" />
                   </Link>
-                )
+                );
               })}
             </div>
 
             <div className="text-center md:text-right">
               <p className="text-gray-400 text-sm">
-                © {new Date().getFullYear()} The Weather and Everything. All rights reserved.
+                © {new Date().getFullYear()} The Weather and Everything. All
+                rights reserved.
               </p>
-              <p className="text-gray-500 text-xs mt-1">Building a sustainable future, one action at a time.</p>
+              <p className="text-gray-500 text-xs mt-1">
+                Raising guardians of the planet…
+              </p>
             </div>
           </div>
         </motion.div>
       </div>
     </footer>
-  )
+  );
 }

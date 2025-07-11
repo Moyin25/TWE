@@ -58,9 +58,13 @@ export default function Mission() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-lg text-gray-700 dark:text-white leading-relaxed"
             >
-              At The Weather and Everything, we believe that environmental action starts with understanding. We’re
-              dedicated to bridging the gap between climate science and community action, empowering individuals and
-              organizations to make meaningful changes for our planet's future.
+              At the Weather and Everything, we believe that environmental
+              action starts with understanding. We are dedicated to bridging the
+              gap between Climate science and Community Action, empowering
+              individuals to become active stewards of the environment through
+              climate education and sustainable practices. Nurturing a
+              generation that sees environmental stewardship not as a duty, but
+              as a way of life.
             </motion.p>
 
             <motion.p
@@ -69,8 +73,8 @@ export default function Mission() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="text-lg text-gray-700 dark:text-white leading-relaxed"
             >
-              Through education, advocacy, and direct action, we're building a global network of environmental
-              stewards committed to protecting our planet for future generations.
+              We are a global network of environmental stewardship committed to
+              protecting our planet for future generations.
             </motion.p>
           </motion.div>
 
@@ -108,5 +112,5 @@ export default function Mission() {
         </div>
       </div>
     </section>
-  )
+  );
 }

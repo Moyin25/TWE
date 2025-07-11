@@ -100,10 +100,10 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="text-lg md:text-xl lg:text-2xl text-white max-w-4xl mx-auto leading-relaxed"
           >
-            Empowering communities to act on climate change through education,
-            advocacy, and solutions for a{" "}
+            Empowering Communities to act on Climate change through education,
+            advocacy and solutions for an{" "}
             <span className="text-green-light font-semibold">
-              brighter tomorrow
+              assured future.
             </span>
             .
           </motion.p>
