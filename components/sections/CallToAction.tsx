@@ -10,7 +10,7 @@ const actions = [
   {
     icon: <Users className="h-8 w-8" />,
     title: "Volunteer",
-    description: "Join our community of environmental advocates",
+    description: "Join our eco community",
   },
   {
     icon: <Heart className="h-8 w-8" />,
