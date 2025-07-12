@@ -58,11 +58,11 @@ export default function Footer() {
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Phone className="h-5 w-5 mr-3 text-green-light" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+234 908067440058</span>
                 </div>
                 <div className="flex items-center text-gray-300">
                   <MapPin className="h-5 w-5 mr-3 text-green-light" />
-                  <span>123 Green Street, Eco City, EC 12345</span>
+                  <span>Lekki, Lagos Stategit </span>
                 </div>
               </div>
             </motion.div>
