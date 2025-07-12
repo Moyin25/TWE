@@ -103,7 +103,7 @@ export default function Hero() {
             Empowering Communities to act on Climate change through education,
             advocacy and solutions for an{" "}
             <span className="text-green-light font-semibold">
-              assured future.
+              assured future
             </span>
             .
           </motion.p>
