@@ -54,7 +54,7 @@ export default function Footer() {
               <div className="space-y-3">
                 <div className="flex items-center text-gray-300">
                   <Mail className="h-5 w-5 mr-3 text-green-light" />
-                  <span>info@tweather.org</span>
+                  <span>Theweatherandeverything@gmail.com</span>
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Phone className="h-5 w-5 mr-3 text-green-light" />
