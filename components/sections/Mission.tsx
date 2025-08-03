@@ -17,9 +17,9 @@ export default function Mission() {
     },
     {
       icon: <Globe className="h-6 w-6 md:h-8 md:w-8" />,
-      title: "Climate Advocacy",
+      title: "Climate Education",
       description:
-        "Raising awareness about climate change and promoting sustainable practices worldwide.",
+        "Raising awareness about climate change, environmental stewardship and promoting sustainable practices worldwide.",
     },
     {
       icon: <Users className="h-6 w-6 md:h-8 md:w-8" />,
@@ -27,7 +27,7 @@ export default function Mission() {
       description:
         "Building resilient communities equipped to face environmental challenges together.",
     },
-  ]
+  ];
 
   return (
     <section
@@ -59,12 +59,10 @@ export default function Mission() {
               className="text-lg text-gray-700 dark:text-white leading-relaxed"
             >
               At the Weather and Everything, we believe that environmental
-              action starts with understanding. We are dedicated to bridging the
-              gap between Climate science and Community Action, empowering
-              individuals to become active stewards of the environment through
-              climate education and sustainable practices. Nurturing a
-              generation that sees environmental stewardship not as a duty, but
-              as a way of life.
+              action begins with understanding. We are dedicated to bridging the
+              gap between climate science and community action, empowering
+              individuals, especially young people, to become active stewards of
+              the environment.
             </motion.p>
 
             <motion.p
@@ -73,8 +71,8 @@ export default function Mission() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="text-lg text-gray-700 dark:text-white leading-relaxed"
             >
-              We are a global network of environmental stewardship committed to
-              protecting our planet for future generations.
+              We are nurturing a generation that sees environmental stewardships
+              not just as a duty, but a way of life.
             </motion.p>
           </motion.div>
 
