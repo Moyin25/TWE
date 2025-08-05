@@ -48,7 +48,10 @@ export default function ValuesSection() {
   const isInView = useInView(ref, { once: true, margin: "-100px" })
 
   return (
-    <section ref={ref} className="py-32 bg-gray-50 dark:bg-[#0c2b2d] relative overflow-hidden">
+    <section
+      ref={ref}
+      className="py-32 bg-gray-50 dark:bg-[#0c2b2d] relative overflow-hidden"
+    >
       {/* Background pattern */}
 
       {/* <div className="absolute inset-0 opacity-5 dark:opacity-10 pointer-events-none z-0">
@@ -62,7 +65,6 @@ export default function ValuesSection() {
         </svg>
       </div> */}
 
-
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <motion.div
@@ -72,10 +74,10 @@ export default function ValuesSection() {
           className="text-center mb-20"
         >
           <h2 className="text-5xl lg:text-6xl font-hartone font-bold text-black dark:text-white mb-8">
-            Our Values
+            Our Focus
           </h2>
           <p className="text-xl text-gray-700 dark:text-white max-w-3xl mx-auto">
-            These core principles guide everything we do and shape our approach to environmental advocacy.
+            Environmentalism, Sustainability, Optimism and Integrity
           </p>
         </motion.div>
 
@@ -117,5 +119,5 @@ export default function ValuesSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

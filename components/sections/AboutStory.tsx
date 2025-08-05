@@ -13,22 +13,28 @@ export default function AboutStory() {
     {
       icon: <Lightbulb className="h-8 w-8" />,
       title: "The Idea",
-      description: "Born from a simple belief that everyone deserves to understand and act on climate science.",
+      description:
+        "Born from a simple belief that everyone deserves to understand and act on climate science.",
     },
     {
       icon: <Target className="h-8 w-8" />,
       title: "The Mission",
-      description: "Bridging the gap between complex environmental data and actionable community solutions.",
+      description:
+        "Bridging the gap between climate science and community action, empowering individuals, especially young people, to become active stewards of the environment.",
     },
     {
       icon: <Rocket className="h-8 w-8" />,
-      title: "The Impact",
-      description: "Growing into a global movement with thousands of active environmental advocates.",
+      title: "The Impact: Change to the Future",
+      description:
+        "From the thousands of students reached through our school programs to the growing number of youth-led climate chapters, we are cultivating long-term environmental change from the ground up.",
     },
-  ]
+  ];
 
   return (
-    <section ref={ref} className="relative overflow-hidden py-32 bg-white dark:bg-[#0c2b2d]">
+    <section
+      ref={ref}
+      className="relative overflow-hidden py-32 bg-white dark:bg-[#0c2b2d]"
+    >
       {/* Scroll Progress Bar */}
       <motion.div
         className="fixed top-0 left-0 h-1 bg-green-light z-[60]"
@@ -39,8 +45,21 @@ export default function AboutStory() {
       <div className="absolute inset-0 opacity-5 dark:opacity-10 pointer-events-none z-0">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
           <defs>
-            <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
-              <circle cx="2" cy="2" r="2" fill="currentColor" className="text-green-light" />
+            <pattern
+              id="dots"
+              x="0"
+              y="0"
+              width="40"
+              height="40"
+              patternUnits="userSpaceOnUse"
+            >
+              <circle
+                cx="2"
+                cy="2"
+                r="2"
+                fill="currentColor"
+                className="text-green-light"
+              />
             </pattern>
           </defs>
           <rect width="100%" height="100%" fill="url(#dots)" />
@@ -60,9 +79,17 @@ export default function AboutStory() {
             Our Story
           </h2>
           <p className="text-xl text-gray-700 dark:text-white max-w-4xl mx-auto leading-relaxed">
-            The Weather and Everything began as a grassroots intiative in 2018, founded by a group of climate
-            scientists, educators, and community organizers who shared a common vision: making environmental action
-            accessible to everyone.
+            The Weather and Everything began as a grassroots initiative in early
+            2025, founded by Bukola and Wesley; two trained climate and
+            environmental scientists. Driven by a shared passion for climate
+            education and environmental stewardship, they started the community
+            with a simple but powerful goal: to make climate knowledge
+            accessible to everyone, from classrooms to street corners. What
+            began as small conversations and local outreaches has now grown into
+            a youth-led movement focused on equipping people, especially young
+            minds with the tools, knowledge, and curiosity to understand the
+            weather, respect the environment, and take action for a sustainable
+            future.
           </p>
         </motion.div>
 
@@ -78,14 +105,18 @@ export default function AboutStory() {
             >
               {/* Icon */}
               <div className="z-10 relative mb-8">
-                <div className="w-20 h-20 bg-gradient-to-br from-green-light to-green-dark rounded-full flex items-center justify-center text-white shadow-xl group-hover:scale-110 transition" >
+                <div className="w-20 h-20 bg-gradient-to-br from-green-light to-green-dark rounded-full flex items-center justify-center text-white shadow-xl group-hover:scale-110 transition">
                   {milestone.icon}
                 </div>
               </div>
 
               {/* Content */}
-              <h3 className="text-2xl font-semibold text-black dark:text-white mb-2">{milestone.title}</h3>
-              <p className="text-gray-700 dark:text-white max-w-sm">{milestone.description}</p>
+              <h3 className="text-2xl font-semibold text-black dark:text-white mb-2">
+                {milestone.title}
+              </h3>
+              <p className="text-gray-700 dark:text-white max-w-sm">
+                {milestone.description}
+              </p>
 
               {/* Connector Line */}
               {index < milestones.length - 1 && (
@@ -117,14 +148,18 @@ export default function AboutStory() {
               Why "The Weather and Everything"?
             </h3>
             <p className="text-lg text-gray-700 dark:text-white leading-relaxed">
-              Weather isn't just about daily forecasts—it's the heartbeat of our planet's climate system. It affects
-              agriculture, energy, health, economics, and social justice. We chose this name because weather truly is
-              connected to everything, and understanding these connections empowers us to make informed decisions for a
-              sustainable future.
+              Weather isn't just a daily forecast; it's the heartbeat of our
+              planet's climate system. It influences agriculture, energy,
+              health, economy, and even justice. We all live somewhere in
+              between the weather and everything it touches, yet, we are often
+              unaware of how deeply connected we are to it. The name The Weather
+              and Everything reflects a simple truth: weather is woven into
+              every part of our lives, shaping our experiences, our environment,
+              and our future.
             </p>
           </div>
         </motion.div>
       </div>
     </section>
-  )
+  );
 }

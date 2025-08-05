@@ -58,7 +58,7 @@ export default function Footer() {
                 </div>
                 <div className="flex items-center text-gray-300">
                   <Phone className="h-5 w-5 mr-3 text-green-light" />
-                  <span>+234 908067440058</span>
+                  <span>+234 908 058 4032</span>
                 </div>
                 <div className="flex items-center text-gray-300">
                   <MapPin className="h-5 w-5 mr-3 text-green-light" />
@@ -148,7 +148,7 @@ export default function Footer() {
                 rights reserved.
               </p>
               <p className="text-gray-500 text-xs mt-1">
-                Raising guardians of the planet…
+                Raising Stewards of the Environment{" "}
               </p>
             </div>
           </div>
