@@ -2,77 +2,81 @@
 
 import { motion, useInView } from "framer-motion"
 import { useRef } from "react"
-import { Linkedin, Twitter, Mail } from "lucide-react"
-import Image from "next/image"
+import { Linkedin, Instagram, Mail } from "lucide-react"
+import Image from "next/image" 
+import Wesley from "@/public/Wesley.jpg"
+import Bukola from "@/public/Bukola .jpg"
+import Eyitayo from "@/public/Eyitayo.png"
+import Moyin from "@/public/Moyin.jpg"
 
 const teamMembers = [
   {
-    name: "Dr. Sarah Chen",
-    role: "Founder & CEO",
-    bio: "Climate scientist with 15+ years of experience in environmental research and policy.",
-    image: "/placeholder.svg?height=300&width=300",
+    name: "Babalola Oluwabukola",
+    role: "Founder & Executive Director",
+    bio: "Climate scientist with 5+ years of experience in environmental research and policy.",
+    image: "/Bukola .jpg",
     social: {
       linkedin: "#",
-      twitter: "#",
+      Instagram: "#",
       email: "sarah@tweather.org",
     },
   },
   {
-    name: "Marcus Rodriguez",
+    name: "Ajiboye Wesley",
     role: "Director of Operations",
     bio: "Community organizer passionate about environmental justice and sustainable development.",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/Wesley.jpg",
     social: {
       linkedin: "#",
-      twitter: "#",
+      Instagram: "#",
       email: "marcus@tweather.org",
     },
   },
   {
-    name: "Emma Thompson",
-    role: "Head of Communications",
+    name: "Ilerioluwa Eyitayo",
+    role: "Head of Advocacy and Communications",
     bio: "Environmental journalist and storyteller dedicated to making climate science accessible.",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/Eyitayo.png",
     social: {
       linkedin: "#",
-      twitter: "#",
+      Instagram: "#",
       email: "emma@tweather.org",
     },
   },
   {
-    name: "Dr. James Park",
-    role: "Research Director",
+    name: "Taiwo Ayosile",
+    role: "Website Developer",
     bio: "Renewable energy expert focused on innovative solutions for sustainable communities.",
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/Moyin.jpg",
     social: {
       linkedin: "#",
-      twitter: "#",
+      Instagram: "#",
       email: "james@tweather.org",
     },
   },
   {
-    name: "Aisha Patel",
-    role: "Community Engagement Lead",
+    name: "Ayeni Oluwadamilola",
+    role: "Social Media Director",
     bio: "Grassroots organizer building bridges between science and community action.",
     image: "/placeholder.svg?height=300&width=300",
     social: {
       linkedin: "#",
-      twitter: "#",
+      Instagram: "#",
       email: "aisha@tweather.org",
     },
   },
-  {
-    name: "Carlos Silva",
-    role: "Technology Director",
-    bio: "Software engineer developing digital tools for environmental monitoring and education.",
-    image: "/placeholder.svg?height=300&width=300",
-    social: {
-      linkedin: "#",
-      twitter: "#",
-      email: "carlos@tweather.org",
-    },
-  },
-]
+  //{
+  // name: "Carlos Silva",
+  //role: "Technology Director",
+  // bio: "Software engineer developing digital tools for environmental monitoring and education.",
+  //image: "/placeholder.svg?height=300&width=300",
+  //social: {
+  // linkedin: "#",
+  // twitter: "#",
+  //email: "carlos@tweather.org",
+  //},
+  //},
+];
 
 export default function TeamSection() {
   const ref = useRef(null)
@@ -130,11 +134,11 @@ export default function TeamSection() {
                       <Linkedin className="h-5 w-5" />
                     </a>
                     <a
-                      href={member.social.twitter}
+                      href={member.social.Instagram}
                       className="p-2 bg-white/20 backdrop-blur-md rounded-full text-white hover:bg-white/30"
-                      aria-label="Twitter"
+                      aria-label="Instagram"
                     >
-                      <Twitter className="h-5 w-5" />
+                      <Instagram className="h-5 w-5" />
                     </a>
                     <a
                       href={`mailto:${member.social.email}`}

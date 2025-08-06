@@ -11,8 +11,8 @@ import Image from "next/image"
 const campaigns = [
   {
     id: 1,
-    title: "Ocean Cleanup Initiative",
-    description: "Join us in removing plastic waste from our oceans and protecting marine life.",
+    title: "School Outreach",
+    description: "Join us in Primary and Secondary School Outreach.",
     image: "/placeholder.svg?height=300&width=400",
     location: "Pacific Coast",
     date: "Ongoing",
@@ -20,8 +20,9 @@ const campaigns = [
   },
   {
     id: 2,
-    title: "Urban Forest Project",
-    description: "Planting trees in urban areas to improve air quality and create green spaces.",
+    title: "Social Media Campaign",
+    description:
+      "Campaign on linkdin, Instagrame and X (Twitter) .",
     image: "/placeholder.svg?height=300&width=400",
     location: "Major Cities",
     date: "2024-2025",
@@ -29,14 +30,15 @@ const campaigns = [
   },
   {
     id: 3,
-    title: "Renewable Energy Advocacy",
-    description: "Promoting solar and wind energy adoption in local communities.",
+    title: "University Chapters",
+    description:
+      "Promoting solar and wind energy adoption in local communities.",
     image: "/placeholder.svg?height=300&width=400",
     location: "Global",
     date: "Year-round",
     progress: 85,
   },
-]
+];
 
 export default function Campaigns() {
   const ref = useRef(null)
