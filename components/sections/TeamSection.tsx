@@ -16,9 +16,10 @@ const teamMembers = [
     bio: "Climate scientist with 5+ years of experience in environmental research and policy.",
     image: "/Bukola .jpg",
     social: {
-      linkedin: "#",
-      Instagram: "#",
-      email: "sarah@tweather.org",
+      linkedin: "https://www.linkedin.com/in/oluwabukola-babalola-08081319b/",
+      Instagram:
+        "https://www.instagram.com/iris_bukola?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      email: "bukolairis@gmail.com",
     },
   },
   {
@@ -27,20 +28,22 @@ const teamMembers = [
     bio: "Community organizer passionate about environmental justice and sustainable development.",
     image: "/Wesley.jpg",
     social: {
-      linkedin: "#",
-      Instagram: "#",
-      email: "marcus@tweather.org",
+      linkedin: "https://www.linkedin.com/in/wesley-o-ajiboye-29658017a/",
+      Instagram:
+        "https://www.instagram.com/wesleyoajiboye?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      email: "wesley.o.ajiboye@gmail.com",
     },
   },
   {
-    name: "Ilerioluwa Eyitayo",
+    name: "Aina Eyitayo",
     role: "Head of Advocacy and Communications",
     bio: "Environmental journalist and storyteller dedicated to making climate science accessible.",
     image: "/Eyitayo.png",
     social: {
-      linkedin: "#",
-      Instagram: "#",
-      email: "emma@tweather.org",
+      linkedin: "https://www.linkedin.com/in/eyitayo-aina/",
+      Instagram:
+        "https://www.instagram.com/tayo_aina?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      email: "eyitaina@gmail.com",
     },
   },
   {
@@ -49,9 +52,10 @@ const teamMembers = [
     bio: "Renewable energy expert focused on innovative solutions for sustainable communities.",
     image: "/Moyin.jpg",
     social: {
-      linkedin: "#",
-      Instagram: "#",
-      email: "james@tweather.org",
+      linkedin:
+        "https://www.linkedin.com/in/ay%C3%B2s%C3%ADl%C3%A9-moyinol%C3%BAwa-taiwo-95b346223/",
+      Instagram: "https://www.instagram.com/ayosilemoyinoluwa/",
+      email: "taiwoayosilemoyinoluwa@gmail.com",
     },
   },
   {
@@ -60,9 +64,10 @@ const teamMembers = [
     bio: "Grassroots organizer building bridges between science and community action.",
     image: "/placeholder.svg?height=300&width=300",
     social: {
-      linkedin: "#",
-      Instagram: "#",
-      email: "aisha@tweather.org",
+      linkedin: "https://www.linkedin.com/in/damilola-ayeni20/",
+      Instagram:
+        "https://www.instagram.com/theglobaldamemoymo?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+      email: "damilolaayeni28@gmail.com",
     },
   },
   //{
