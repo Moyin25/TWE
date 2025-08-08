@@ -7,7 +7,7 @@ export default function CampaignsPage() {
   return (
     <main className="min-h-screen">
       <CampaignsHero />
-      <CampaignsFilter />
+      {/* <CampaignsFilter /> */}
       <CampaignsGrid />
       <CampaignsMap />
     </main>
