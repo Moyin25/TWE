@@ -14,7 +14,7 @@ const teamMembers = [
     name: "Babalola Oluwabukola",
     role: "Founder & Executive Director",
     bio: "Climate scientist with 5+ years of experience in environmental research and policy.",
-    image: "/Bukola .jpg",
+    image: Bukola,
     social: {
       linkedin: "https://www.linkedin.com/in/oluwabukola-babalola-08081319b/",
       Instagram:
@@ -26,7 +26,7 @@ const teamMembers = [
     name: "Ajiboye Wesley",
     role: "Director of Operations",
     bio: "Community organizer passionate about environmental justice and sustainable development.",
-    image: "/Wesley.jpg",
+    image: Wesley,
     social: {
       linkedin: "https://www.linkedin.com/in/wesley-o-ajiboye-29658017a/",
       Instagram:
@@ -38,7 +38,7 @@ const teamMembers = [
     name: "Aina Eyitayo",
     role: "Head of Advocacy and Communications",
     bio: "Environmental journalist and storyteller dedicated to making climate science accessible.",
-    image: "/Eyitayo.png",
+    image: Eyitayo,
     social: {
       linkedin: "https://www.linkedin.com/in/eyitayo-aina/",
       Instagram:
@@ -50,7 +50,7 @@ const teamMembers = [
     name: "Taiwo Ayosile",
     role: "Website Developer",
     bio: "Renewable energy expert focused on innovative solutions for sustainable communities.",
-    image: "/Moyin.jpg",
+    image: Moyin,
     social: {
       linkedin:
         "https://www.linkedin.com/in/ay%C3%B2s%C3%ADl%C3%A9-moyinol%C3%BAwa-taiwo-95b346223/",
@@ -119,13 +119,21 @@ export default function TeamSection() {
             >
               <div className="bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-500 group-hover:-translate-y-2">
                 <div className="relative overflow-hidden">
-                  <Image
-                    src={member.image || "/placeholder.svg"}
-                    alt={member.name}
-                    width={300}
-                    height={300}
-                    className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
+                  {typeof member.image === 'string' ? (
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      width={400}
+                      height={400}
+                      className="w-full transition-transform duration-500 group-hover:scale-105"
+                    />
+                  ) : (
+                    <Image
+                      src={member.image}
+                      alt={member.name}
+                      className="w-full transition-transform duration-500 group-hover:scale-105"
+                    />
+                  )}
                   {/* Gradient overlay on hover */}
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
@@ -156,8 +164,8 @@ export default function TeamSection() {
                 </div>
 
                 <div className="p-6">
-                  <h3 className="text-2xl font-semibold text-black dark:text-black mb-1">{member.name}</h3>
-                  <p className="text-green-dark dark:text-green-dark font-medium mb-3">{member.role}</p>
+                  <h3 className="text-2xl font-semibold text-black dark:text-white mb-1">{member.name}</h3>
+                  <p className="text-green-dark dark:text-green-light font-medium mb-3">{member.role}</p>
                   <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">{member.bio}</p>
                 </div>
               </div>
