@@ -62,7 +62,7 @@ export default function Footer() {
                 </div>
                 <div className="flex items-center text-gray-300">
                   <MapPin className="h-5 w-5 mr-3 text-green-light" />
-                  <span>Lekki, Lagos Stategit </span>
+                  <span>Lekki, Lagos State </span>
                 </div>
               </div>
             </motion.div>
