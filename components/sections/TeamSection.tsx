@@ -8,7 +8,7 @@ import Wesley from "@/public/Wesley.jpg"
 import Bukola from "@/public/Bukola .jpg"
 import Eyitayo from "@/public/Eyitayo.png"
 import Moyin from "@/public/Moyin.jpg"
-import Damilola from "@/public/Dmilolab.jpg"
+import Damilola from "@/public/Damilola.jpg"
 
 const teamMembers = [
   {
