@@ -8,6 +8,7 @@ import Wesley from "@/public/Wesley.jpg"
 import Bukola from "@/public/Bukola .jpg"
 import Eyitayo from "@/public/Eyitayo.png"
 import Moyin from "@/public/Moyin.jpg"
+import Damilola from "@/public/Dmilolab.jpg"
 
 const teamMembers = [
   {
@@ -62,7 +63,7 @@ const teamMembers = [
     name: "Ayeni Oluwadamilola",
     role: "Social Media Director",
     bio: "Grassroots organizer building bridges between science and community action.",
-    image: "/placeholder.svg?height=300&width=300",
+    image: Damilola,
     social: {
       linkedin: "https://www.linkedin.com/in/damilola-ayeni20/",
       Instagram:

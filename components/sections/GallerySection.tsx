@@ -43,24 +43,24 @@ const galleryImages = [
     date: "2024-03-05",
     location: "Ibadan, Nigeria",
   },
-  {
-    id: 5,
-    src: "/logo.png",
-    alt: "TW&E Logo",
-    title: "Our Logo",
-    category: "Branding",
-    date: "2020-11-12",
-    location: "Global",
-  },
-  {
-    id: 6,
-    src: "/placeholder.jpg",
-    alt: "Placeholder Image",
-    title: "Nature Scene",
-    category: "Nature",
-    date: "2023-12-01",
-    location: "Amazon Rainforest",
-  },
+  // {
+  //   id: 5,
+  //   src: "/logo.png",
+  //   alt: "TW&E Logo",
+  //   title: "Our Logo",
+  //   category: "Branding",
+  //   date: "2020-11-12",
+  //   location: "Global",
+  // },
+  // {
+  //   id: 6,
+  //   src: "/placeholder.jpg",
+  //   alt: "Placeholder Image",
+  //   title: "Nature Scene",
+  //   category: "Nature",
+  //   date: "2023-12-01",
+  //   location: "Amazon Rainforest",
+  // },
   {
     id: 7,
     src: "/placeholder-user.jpg",
@@ -70,18 +70,18 @@ const galleryImages = [
     date: "2024-02-18",
     location: "Kano, Nigeria",
   },
-  {
-    id: 8,
-    src: "/placeholder-logo.png",
-    alt: "Project Launch",
-    title: "New Project Launch",
-    category: "Campaigns",
-    date: "2024-04-30",
-    location: "Port Harcourt, Nigeria",
-  },
+  // {
+  //   id: 8,
+  //   src: "/placeholder-logo.png",
+  //   alt: "Project Launch",
+  //   title: "New Project Launch",
+  //   category: "Campaigns",
+  //   date: "2024-04-30",
+  //   location: "Port Harcourt, Nigeria",
+  // },
 ];
 
-const categories = ["All", "Events", "Education", "Team", "Campaigns", "Branding", "Nature"];
+const categories = ["All", "Events", "Education", "Campaigns"];
 
 export default function GallerySection() {
   const [selectedCategory, setSelectedCategory] = useState("All");
