@@ -9,7 +9,7 @@ import { ChevronLeft, ChevronRight, X, Heart, Eye, Calendar, MapPin } from "luci
 const galleryImages = [
   {
     id: 1,
-    src: "/Wesley.jpg",
+    src: "/IMG_4867.jpg",
     alt: "Community Event 1",
     title: "Community Gathering",
     category: "Events",
@@ -63,7 +63,7 @@ const galleryImages = [
   // },
   {
     id: 7,
-    src: "/placeholder-user.jpg",
+    src: "/IMG_4867.jpg",
     alt: "Volunteer Activity",
     title: "Volunteer Training",
     category: "Events",
@@ -271,7 +271,7 @@ export default function GallerySection() {
                         <span>{image.date}</span>
                       </div>
                     </div>
-                  </div>
+                  </div>  
                   
                   {/* Card footer */}
                   <div className="p-4">
